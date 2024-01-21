@@ -2,7 +2,7 @@ const getUserChoice = (userInput) => {
     userInput = userInput.toLowerCase();
     if (userInput === 'rock' || userInput === 'paper' || userInput === 'scissors' || userInput === 'bomb') {
       return userInput;
-    } else {
+    } else { 
       console.log('Error: Invalid choice. Please choose rock, paper, scissors, or use the secret cheat code "bomb".');
     }
   };
