@@ -19,8 +19,7 @@ const getUserChoice = (userInput) => {
     }
   };
   
-  // Example usage:
-  const userChoice = getUserChoice('scissors'); // Replace 'rock' with user input
+  const userChoice = getUserChoice('rock'); // Replace 'rock' with user input
   const computerChoice = getComputerChoice();
   console.log('User choice:', userChoice);
   console.log('Computer choice:', computerChoice);
