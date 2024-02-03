@@ -6,7 +6,7 @@ const getUserChoice = (userInput) => {
       console.log('Error: Invalid choice. Please choose rock, paper, scissors, or use the secret cheat code "bomb".');
     }
   };
-  
+     
   const getComputerChoice = () => {
     const randomNumber = Math.floor(Math.random() * 3);
     switch (randomNumber) {
